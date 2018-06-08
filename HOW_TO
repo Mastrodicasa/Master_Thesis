@@ -1,0 +1,13 @@
+From start to finish, for the standard way of doing the algorithm:
+
+- Create a dataset from createToyDatasetPara.m and createToyDataset2Para.m
+- Put the matrix in the same directory as the Python files
+- Run PCNN.py
+- New dataset: Gather the coefficient of A and B like in indices_patch.m
+- Run select_patch.m
+- Run BCNN.py
+- Run BCNNpredict.py
+
+At this point the classification score appears, if one wants to see the selection of the most discriminative patches:
+- Prediction: Gather the coefficient like in indices_pred.m
+- Run select_predictions.m
