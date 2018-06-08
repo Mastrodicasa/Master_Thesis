@@ -40,6 +40,12 @@ SCNN.py
 PCNN.py
 PCNN_small.py
 
+### New Dataset (Matlab):
+indices_patch.m
+readNPY.m
+readNPYheader.m
+select_patch.m
+show_selected.m
 
 ### BCNN:
 BCNN.py
@@ -51,6 +57,9 @@ BCNN1predict.py
 BCNN_s.py
 BCNNpredict_s.py
 
+### Prediction of the most discriminative Patch (Matlab):
+indices_pred.m
+select_predictions.m
 
 ### Packages:
 LossFunction.py
