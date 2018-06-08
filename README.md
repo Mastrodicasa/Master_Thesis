@@ -15,9 +15,9 @@ approach.
 
 ## Files
 In this directory, there are:
--All the codes to create a synthetic dataset and to run the algorithm.
--A description on how to use them.
--The written report
+- All the codes to create a synthetic dataset and to run the algorithm.
+- A description on how to use them.
+- The written report
 
 The codes can be regrouped as follow:
 
