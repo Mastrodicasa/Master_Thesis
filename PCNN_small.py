@@ -84,7 +84,7 @@ def cnn_model_fn(features, labels, mode, params):
   wrongClass, size_current_batch=lf.selectionOfTheWrongClassOnly(labels, predictions, params, mode)
   indices_B1, bool_wrong=sp.selectWrongMax(wrongClass, size_current_batch)
   indices_B1= tf.identity(indices_B1, name="indices_B1")
-  indices_B2, bool_entropy=sp.selectLowEntropy(predictions, size_current_batch)
+  indices_B2, bool_entropy=sp.selectHighEntropy(predictions, size_current_batch)
   indices_B2= tf.identity(indices_B2, name="indices_B2")
 
   predictions["probabilities"]=lf.removeSmallContentPatches(predictions,params,mode, features["x"])  
