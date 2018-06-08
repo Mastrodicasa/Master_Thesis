@@ -1,0 +1,5 @@
+For every type of dataset, a couple exists: one file for each class. 
+
+The couple "ToyDatasetPara" is the standard one.
+The couple "InversedToyDataset" flips which shapes are discriminative and which aren't.
+The couple "ExtremeToyDataset" has big variation for the size of the shapes.
